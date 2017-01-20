@@ -96,7 +96,7 @@ body, html {
   text-align: right;
   padding: 15px 20px 15px 50px;
   position: relative;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .inner-work:hover {
@@ -246,6 +246,36 @@ textarea {
   margin-top: 60px;
   text-align: center;
   color: #323232;
+}
+
+.CTA {
+  background: #F04848;
+  color: white;
+  width: 80%;
+  padding: 5% 10% 7%;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.CTA a {
+  border: 3px solid white;
+  background: transparent;
+  color: white;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  text-decoration: none;
+  padding: 10px 14px;
+  position: relative;
+  top: 40px;
+  font-weight: bold;
+}
+
+.CTA a:hover {
+  background: white;
+  color: #323232;
+  font-weight: bold;
 }
 
 
